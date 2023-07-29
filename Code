@@ -168,7 +168,7 @@ private static void cancelTheReservation()
     else if (!seat[seatNum - 1]) 
     {
         System.out.println("Oops, This Seat Is Unreserved!");
-    } 
+    }
     else 
     {
     seat[seatNum - 1] = false;
